@@ -100,7 +100,7 @@ contract Reverse_Logistics_Mobile{
 
 
     constructor () public { // constructor, creates order. we map starting from id=1,  hardcoded values of all
-        addProduct("Example",200, "Delivey in 3 days, temperature X","5400AA","ADDeFFtt45045594xxE3948"); //
+        addProduct("Example",200, "Delivey in 3 days","5400AA","ADDeFFtt45045594xxE3948"); //
         addTrace(1,"some coordinates", "name or address of actual owner",1573564413);
         //addComponent();
         triggered=false;
